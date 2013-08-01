@@ -1,0 +1,28 @@
+puts "enter first number"
+x = gets.to_i
+puts "enter second number"
+y = gets.to_i
+puts "enter your operand add subtract divide multiply power modulus"
+operand = gets.chomp
+case operand
+when "add"
+sum = x + y
+puts sum
+when "subtract"
+difference = x - y
+puts subtract
+when "divide"
+quotient = x / y
+puts quotient
+when "multiply"
+product = x * y
+puts product
+when "power"
+product1 = x ** y
+puts product1
+when "modulus"
+product2 = x % y
+puts product2
+else
+puts "undefined operand"
+end
